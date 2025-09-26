@@ -21,7 +21,7 @@ namespace LibrarySystem.Infrastructure
         {
             using (var _context = new AppDbContext())
             {
-                var user = _context.Users.AsNoTracking().Where(x => x.Id == id).FirstOrDefault();
+                var user = _context.Users.Where(x => x.Id == id).FirstOrDefault();
                 if (user != null)
                     return user;
                 return null;
@@ -70,26 +70,26 @@ namespace LibrarySystem.Infrastructure
         {
             using (var _context = new AppDbContext())
             {
-                var user = _context.Users.AsNoTracking().Where(x => x.Username.ToUpper() == userName.ToUpper()).FirstOrDefault();
+                var user = _context.Users.Where(x => x.Username.ToUpper() == userName.ToUpper()).FirstOrDefault();
                 if (user != null)
                     return user;
                 return null;
             }
-            
+
         }
 
         public List<User> GetUserList()
         {
             using (var _context = new AppDbContext())
             {
-                return _context.Users.AsNoTracking().ToList();
+                return _context.Users.ToList();
             }
         }
         public bool IsUserNameAlreadyExistUser(string userName)
         {
             using (var _context = new AppDbContext())
             {
-                var user = _context.Users.AsNoTracking().Where(x => x.Username.ToUpper() == userName.ToUpper()).FirstOrDefault();
+                var user = _context.Users.Where(x => x.Username.ToUpper() == userName.ToUpper()).FirstOrDefault();
                 if (user == null)
                 {
                     return true;
@@ -110,12 +110,28 @@ namespace LibrarySystem.Infrastructure
                 }
             }
         }
+        public void ChangeUserPenaltyAmount(float penaltyAmount, int userId)
+        {
+            using (var _context = new AppDbContext())
+            {
+                var user = _context.Users.FirstOrDefault(x => x.Id == userId);
+                user.PenaltyAmount = penaltyAmount;
+                _context.SaveChanges();
+            }
+        }
+        public double GetUserPenaltyAmount(int userId)
+        {
+            using (var _context = new AppDbContext())
+            {
+                var user = _context.Users.FirstOrDefault(x => x.Id == userId);
+                return user.PenaltyAmount;
+            }
+        }
         public List<BorrowedBook> GetUsersBorrowedBooks(int userId)
         {
             using (var _context = new AppDbContext())
             {
                 var borrowedBooks = _context.BorrowedBooks
-                .AsNoTracking()
                 .Where(x => x.UserId == userId)
                 .Include(x => x.Book)
                 .ThenInclude(b => b.Category)

@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\SinaSoft\\Desktop\\HW-12\\LibrarySystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1BB61A99-8563-44C1-B5CE-0B8E41097A18}|LibrarySystem\\LibrarySystem.csproj|c:\\users\\sinasoft\\desktop\\hw-12\\librarysystem\\librarysystem\\services\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BB61A99-8563-44C1-B5CE-0B8E41097A18}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\services\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1BB61A99-8563-44C1-B5CE-0B8E41097A18}|LibrarySystem\\LibrarySystem.csproj|c:\\users\\sinasoft\\desktop\\hw-12\\librarysystem\\librarysystem\\services\\wishlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BB61A99-8563-44C1-B5CE-0B8E41097A18}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\services\\wishlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BB61A99-8563-44C1-B5CE-0B8E41097A18}|LibrarySystem\\LibrarySystem.csproj|c:\\users\\sinasoft\\desktop\\hw-12\\librarysystem\\librarysystem\\contracts\\servicecontracts\\iwishlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BB61A99-8563-44C1-B5CE-0B8E41097A18}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\contracts\\servicecontracts\\iwishlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BB61A99-8563-44C1-B5CE-0B8E41097A18}|LibrarySystem\\LibrarySystem.csproj|c:\\users\\sinasoft\\desktop\\hw-12\\librarysystem\\librarysystem\\infrastructure\\wishlistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BB61A99-8563-44C1-B5CE-0B8E41097A18}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\infrastructure\\wishlistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BB61A99-8563-44C1-B5CE-0B8E41097A18}|LibrarySystem\\LibrarySystem.csproj|c:\\users\\sinasoft\\desktop\\hw-12\\librarysystem\\librarysystem\\contracts\\repositorycontracts\\iwishlistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BB61A99-8563-44C1-B5CE-0B8E41097A18}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\contracts\\repositorycontracts\\iwishlistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1BB61A99-8563-44C1-B5CE-0B8E41097A18}|LibrarySystem\\LibrarySystem.csproj|c:\\users\\sinasoft\\desktop\\hw-12\\librarysystem\\librarysystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1BB61A99-8563-44C1-B5CE-0B8E41097A18}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1BB61A99-8563-44C1-B5CE-0B8E41097A18}|LibrarySystem\\LibrarySystem.csproj|c:\\users\\sinasoft\\desktop\\hw-12\\librarysystem\\librarysystem\\infrastructure\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BB61A99-8563-44C1-B5CE-0B8E41097A18}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\infrastructure\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1BB61A99-8563-44C1-B5CE-0B8E41097A18}|LibrarySystem\\LibrarySystem.csproj|c:\\users\\sinasoft\\desktop\\hw-12\\librarysystem\\librarysystem\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1BB61A99-8563-44C1-B5CE-0B8E41097A18}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BB61A99-8563-44C1-B5CE-0B8E41097A18}|LibrarySystem\\LibrarySystem.csproj|c:\\users\\sinasoft\\desktop\\hw-12\\librarysystem\\librarysystem\\infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BB61A99-8563-44C1-B5CE-0B8E41097A18}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1BB61A99-8563-44C1-B5CE-0B8E41097A18}|LibrarySystem\\LibrarySystem.csproj|c:\\users\\sinasoft\\desktop\\hw-12\\librarysystem\\librarysystem\\contracts\\repositorycontracts\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BB61A99-8563-44C1-B5CE-0B8E41097A18}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\contracts\\repositorycontracts\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,17 +42,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\SinaSoft\\Desktop\\HW-12\\LibrarySystem\\LibrarySystem\\Program.cs",
               "RelativeDocumentMoniker": "LibrarySystem\\Program.cs",
               "ToolTip": "C:\\Users\\SinaSoft\\Desktop\\HW-12\\LibrarySystem\\LibrarySystem\\Program.cs",
               "RelativeToolTip": "LibrarySystem\\Program.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACsAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAE8BAAAAAAAAAAAqwF4BAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-20T10:06:24.93Z",
               "IsPinned": true,
@@ -44,41 +60,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ReviewService.cs",
-              "DocumentMoniker": "C:\\Users\\SinaSoft\\Desktop\\HW-12\\LibrarySystem\\LibrarySystem\\Services\\ReviewService.cs",
-              "RelativeDocumentMoniker": "LibrarySystem\\Services\\ReviewService.cs",
-              "ToolTip": "C:\\Users\\SinaSoft\\Desktop\\HW-12\\LibrarySystem\\LibrarySystem\\Services\\ReviewService.cs",
-              "RelativeToolTip": "LibrarySystem\\Services\\ReviewService.cs",
-              "ViewState": "AgIAAI0AAAAAAAAAAAAowMkAAAAhAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\SinaSoft\\Desktop\\HW-12\\LibrarySystem\\LibrarySystem\\Infrastructure\\BookRepository.cs",
+              "RelativeDocumentMoniker": "LibrarySystem\\Infrastructure\\BookRepository.cs",
+              "ToolTip": "C:\\Users\\SinaSoft\\Desktop\\HW-12\\LibrarySystem\\LibrarySystem\\Infrastructure\\BookRepository.cs",
+              "RelativeToolTip": "LibrarySystem\\Infrastructure\\BookRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAcwBcAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T07:16:07.174Z",
+              "WhenOpened": "2025-09-26T13:35:59.241Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "BookService.cs",
               "DocumentMoniker": "C:\\Users\\SinaSoft\\Desktop\\HW-12\\LibrarySystem\\LibrarySystem\\Services\\BookService.cs",
               "RelativeDocumentMoniker": "LibrarySystem\\Services\\BookService.cs",
               "ToolTip": "C:\\Users\\SinaSoft\\Desktop\\HW-12\\LibrarySystem\\LibrarySystem\\Services\\BookService.cs",
               "RelativeToolTip": "LibrarySystem\\Services\\BookService.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAkwEUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAlwEIAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T07:01:40.72Z",
+              "WhenOpened": "2025-09-26T13:34:20.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WishListService.cs",
+              "DocumentMoniker": "C:\\Users\\SinaSoft\\Desktop\\HW-12\\LibrarySystem\\LibrarySystem\\Services\\WishListService.cs",
+              "RelativeDocumentMoniker": "LibrarySystem\\Services\\WishListService.cs",
+              "ToolTip": "C:\\Users\\SinaSoft\\Desktop\\HW-12\\LibrarySystem\\LibrarySystem\\Services\\WishListService.cs*",
+              "RelativeToolTip": "LibrarySystem\\Services\\WishListService.cs*",
+              "ViewState": "AgIAABAAAAAAAAAAAAAywBsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T13:28:57.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WishListRepository.cs",
+              "DocumentMoniker": "C:\\Users\\SinaSoft\\Desktop\\HW-12\\LibrarySystem\\LibrarySystem\\Infrastructure\\WishListRepository.cs",
+              "RelativeDocumentMoniker": "LibrarySystem\\Infrastructure\\WishListRepository.cs",
+              "ToolTip": "C:\\Users\\SinaSoft\\Desktop\\HW-12\\LibrarySystem\\LibrarySystem\\Infrastructure\\WishListRepository.cs",
+              "RelativeToolTip": "LibrarySystem\\Infrastructure\\WishListRepository.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwCoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T13:23:47.381Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\SinaSoft\\Desktop\\HW-12\\LibrarySystem\\LibrarySystem\\Infrastructure\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "LibrarySystem\\Infrastructure\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\SinaSoft\\Desktop\\HW-12\\LibrarySystem\\LibrarySystem\\Infrastructure\\AppDbContext.cs",
-              "RelativeToolTip": "LibrarySystem\\Infrastructure\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABVAAAAAAAAAA==",
+              "Title": "IWishListRepository.cs",
+              "DocumentMoniker": "C:\\Users\\SinaSoft\\Desktop\\HW-12\\LibrarySystem\\LibrarySystem\\Contracts\\RepositoryContracts\\IWishListRepository.cs",
+              "RelativeDocumentMoniker": "LibrarySystem\\Contracts\\RepositoryContracts\\IWishListRepository.cs",
+              "ToolTip": "C:\\Users\\SinaSoft\\Desktop\\HW-12\\LibrarySystem\\LibrarySystem\\Contracts\\RepositoryContracts\\IWishListRepository.cs",
+              "RelativeToolTip": "LibrarySystem\\Contracts\\RepositoryContracts\\IWishListRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAMwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T06:53:56.657Z",
+              "WhenOpened": "2025-09-26T13:23:22.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\SinaSoft\\Desktop\\HW-12\\LibrarySystem\\LibrarySystem\\Contracts\\RepositoryContracts\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "LibrarySystem\\Contracts\\RepositoryContracts\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\SinaSoft\\Desktop\\HW-12\\LibrarySystem\\LibrarySystem\\Contracts\\RepositoryContracts\\IUserRepository.cs",
+              "RelativeToolTip": "LibrarySystem\\Contracts\\RepositoryContracts\\IUserRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowBcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T13:23:03.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IWishListService.cs",
+              "DocumentMoniker": "C:\\Users\\SinaSoft\\Desktop\\HW-12\\LibrarySystem\\LibrarySystem\\Contracts\\ServiceContracts\\IWishListService.cs",
+              "RelativeDocumentMoniker": "LibrarySystem\\Contracts\\ServiceContracts\\IWishListService.cs",
+              "ToolTip": "C:\\Users\\SinaSoft\\Desktop\\HW-12\\LibrarySystem\\LibrarySystem\\Contracts\\ServiceContracts\\IWishListService.cs",
+              "RelativeToolTip": "LibrarySystem\\Contracts\\ServiceContracts\\IWishListService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T13:22:21.545Z",
               "EditorCaption": ""
             }
           ]

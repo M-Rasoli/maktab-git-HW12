@@ -67,7 +67,8 @@ namespace LibrarySystem.Infrastructure
         {
             using (var _context = new AppDbContext())
             {
-                var book = _context.Books.AsNoTracking()
+                var book = _context.Books
+                    .Include(w => w.UsersWishList)
                     .Include(x => x.Category)
                     .ToList();
                 return book;

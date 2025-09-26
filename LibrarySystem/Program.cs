@@ -20,6 +20,15 @@ IBorrowBookService borrowBookService = new BorrowBookService();
 IUserService userService = new UserService();
 ICategoryService categoryService = new CategoryService();
 IReviewService reviewService = new ReviewService();
+IWishListService wishListService = new WishListService();
+//var date = DateTime.Now.ToString();
+//var sDate = DateTime.Parse(date);
+//Console.WriteLine(sDate);
+//var s = sDate.Day;
+//var sDateN = sDate.AddDays(7);
+//Console.WriteLine(s);
+//Console.WriteLine(sDateN);
+//Console.ReadKey();
 
 while (true)
 {
@@ -127,6 +136,8 @@ void UserMenu()
                         "View the list of borrowed books",
                         "Add a Review For Book",
                         "Change Or Delete Review For Book",
+                        "Penalty Amount Status",
+                        "Wish List",
                         "Log Out"
             }));
         switch (choice)
@@ -145,7 +156,24 @@ void UserMenu()
                 {
                     var reviewsForBook = reviewService.ShowConfirmedReviewsList(numDisRev);
                     Console.WriteLine(reviewsForBook);
-                    Console.WriteLine("Press Any Key For Return");
+                    Console.WriteLine("Want to Add This Book To Your Wish List? If yes Enter Book ID (00-for Back) ");
+                    var inWish = Console.ReadLine()!;
+                    if (inWish == "00")
+                    {
+                        break;
+                    }
+                    bool checkInWish = int.TryParse(inWish, out int inWishNum);
+                    try
+                    {
+                        var wishID = wishListService.AddNewWishList(inWishNum, Session.LoggedInUser.Id);
+                        AnsiConsole.MarkupLine($"[green]Book with ID {inWishNum} Added To Your Wish List[/]");
+                        Console.ReadKey();
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine(ex.Message);
+                        Console.ReadKey();
+                    }
                     Console.ReadKey();
                 }
                 catch (Exception ex)
@@ -247,7 +275,7 @@ void UserMenu()
                 var revList = reviewService.GetAllReviewsByUserID(Session.LoggedInUser.Id);
                 Console.WriteLine(revList);
                 Console.ReadKey();
-                if(revList.ToLower() == "Empty".ToLower())
+                if (revList.ToLower() == "Empty".ToLower())
                 {
                     break;
                 }
@@ -298,6 +326,36 @@ void UserMenu()
                         Console.ReadKey();
                     }
                 }
+                break;
+
+            case "Penalty Amount Status":
+                var pAmount = userService.ShowUserPenaltyAmount(Session.LoggedInUser.Id);
+                Console.WriteLine(pAmount);
+                Console.WriteLine("Press Any Key To Back");
+                Console.ReadKey();
+                break;
+            case "Wish List":
+                var userWishList = wishListService.ShowUserWishlist(Session.LoggedInUser.Id);
+                Console.WriteLine(userWishList);
+                Console.WriteLine("If You Want To Delete a Book From Wish list Enter Wish List Id : (00 - for Back)");
+                var inDelWish = Console.ReadLine()!;
+                if (inDelWish == "00")
+                {
+                    break;
+                }
+                bool checkDelWish = int.TryParse(inDelWish, out int numDelWish);
+                try
+                {
+                    var idWishDel = wishListService.DeleteWishList(numDelWish,Session.LoggedInUser.Id);
+                    Console.WriteLine("Done !");
+                    Console.ReadKey();
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                    Console.ReadKey();
+                }
+                Console.ReadKey();
                 break;
 
             case "Log Out":

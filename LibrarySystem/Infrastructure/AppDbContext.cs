@@ -37,6 +37,10 @@ namespace LibrarySystem.Infrastructure
                 .WithOne(u => u.User)
                 .OnDelete(DeleteBehavior.Cascade);
             modelBuilder.Entity<User>()
+                .HasMany(w => w.BookWishLists)
+                .WithOne(u => u.User)
+                .OnDelete(DeleteBehavior.Cascade);
+            modelBuilder.Entity<User>()
                 .Property(x => x.Username)
                 .HasMaxLength(150);
 
@@ -57,6 +61,10 @@ namespace LibrarySystem.Infrastructure
                 .HasKey(x => x.Id);
             modelBuilder.Entity<Book>()
                 .HasMany(x => x.Reviews)
+                .WithOne(b => b.Book)
+                .OnDelete(DeleteBehavior.Cascade);
+            modelBuilder.Entity<Book>()
+                .HasMany(w => w.UsersWishList)
                 .WithOne(b => b.Book)
                 .OnDelete(DeleteBehavior.Cascade);
             modelBuilder.Entity<Book>()
@@ -106,6 +114,7 @@ namespace LibrarySystem.Infrastructure
         public DbSet<Category> Categories { get; set; }
         public DbSet<BorrowedBook> BorrowedBooks { get; set; }
         public DbSet<Review> Reviews { get; set; }
+        public DbSet<WishList> WishLists { get; set; }
 
         #endregion
 

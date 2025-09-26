@@ -20,6 +20,8 @@ namespace LibrarySystem.Contracts.RepositoryContracts
         void UpdateUserbooks(User user);
         bool IsUserNameAlreadyExistUser(string userName);
         List<BorrowedBook> GetUsersBorrowedBooks(int userId);
+        void ChangeUserPenaltyAmount(float penaltyAmount , int userId);
+        double GetUserPenaltyAmount(int userId);
 
     }
 }
