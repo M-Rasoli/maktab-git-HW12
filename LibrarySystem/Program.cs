@@ -221,7 +221,7 @@ void UserMenu()
                     break;
                 }
                 bool checkVote = int.TryParse(inVote, out int numVote);
-                if (numVote <= 1 || numVote >= 5)
+                if (numVote < 1 || numVote > 5)
                 {
                     Console.WriteLine("You Can Rate Between ( 1 to 5 )");
                     Console.ReadKey();

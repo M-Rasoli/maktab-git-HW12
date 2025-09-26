@@ -13,11 +13,7 @@ namespace LibrarySystem.Infrastructure
         #region Configuring
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(
-                @"Server=DESKTOP-I05OKD5\SQLEXPRESS;
-                    Database=EfLibrarySystem;
-                        Integrated Security=true;
-                                TrustServerCertificate=true;");
+            optionsBuilder.UseSqlServer(@"Server=DESKTOP-I05OKD5\SQLEXPRESS;Database=EfLibrarySystem;Integrated Security=true;TrustServerCertificate=true;");
         }
 
         #endregion

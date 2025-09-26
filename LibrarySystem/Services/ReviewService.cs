@@ -161,10 +161,10 @@ namespace LibrarySystem.Services
         public string ShowConfirmedReviewsList(int bookId)
         {
             var reviews = _reviewRepository.GetAllReviewsForBook(bookId)
-                                   .Where(r => r.IsConfirmed)
-                                   .ToList();
+                                  .Where(r => r.IsConfirmed)
+                                  .ToList();
 
-            if (reviews == null || !reviews.Any() || reviews.Count == 0)
+            if (reviews == null || !reviews.Any())
                 return "Empty";
 
             var sb = new StringBuilder();
@@ -179,8 +179,8 @@ namespace LibrarySystem.Services
             // ردیف‌ها
             foreach (var review in reviews)
             {
-                string userName = review.User.Username;
-                string bookTitle = review.Book.Title;
+                string userName = review.User.Username;   
+                string bookTitle = review.Book.Title;     
                 string comment = string.IsNullOrWhiteSpace(review.Comment) ? "-" : review.Comment;
 
                 sb.AppendLine(
@@ -194,6 +194,10 @@ namespace LibrarySystem.Services
             }
 
             sb.AppendLine("--------------------------------------------------------------------------------------------------");
+
+            
+            double avgRating = reviews.Average(r => (double)r.Rating);
+            sb.AppendLine($"📊 Average Rates : {avgRating:F2}");
 
             return sb.ToString();
         }

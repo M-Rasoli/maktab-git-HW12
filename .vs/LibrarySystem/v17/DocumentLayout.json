@@ -7,32 +7,16 @@
       "RelativeMoniker": "D:0:0:{1BB61A99-8563-44C1-B5CE-0B8E41097A18}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\services\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BB61A99-8563-44C1-B5CE-0B8E41097A18}|LibrarySystem\\LibrarySystem.csproj|c:\\users\\sinasoft\\desktop\\hw-12\\librarysystem\\librarysystem\\infrastructure\\reviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BB61A99-8563-44C1-B5CE-0B8E41097A18}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\infrastructure\\reviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BB61A99-8563-44C1-B5CE-0B8E41097A18}|LibrarySystem\\LibrarySystem.csproj|c:\\users\\sinasoft\\desktop\\hw-12\\librarysystem\\librarysystem\\contracts\\repositorycontracts\\ireviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BB61A99-8563-44C1-B5CE-0B8E41097A18}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\contracts\\repositorycontracts\\ireviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BB61A99-8563-44C1-B5CE-0B8E41097A18}|LibrarySystem\\LibrarySystem.csproj|c:\\users\\sinasoft\\desktop\\hw-12\\librarysystem\\librarysystem\\contracts\\servicecontracts\\ireviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BB61A99-8563-44C1-B5CE-0B8E41097A18}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\contracts\\servicecontracts\\ireviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1BB61A99-8563-44C1-B5CE-0B8E41097A18}|LibrarySystem\\LibrarySystem.csproj|c:\\users\\sinasoft\\desktop\\hw-12\\librarysystem\\librarysystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1BB61A99-8563-44C1-B5CE-0B8E41097A18}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BB61A99-8563-44C1-B5CE-0B8E41097A18}|LibrarySystem\\LibrarySystem.csproj|c:\\users\\sinasoft\\desktop\\hw-12\\librarysystem\\librarysystem\\infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BB61A99-8563-44C1-B5CE-0B8E41097A18}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BB61A99-8563-44C1-B5CE-0B8E41097A18}|LibrarySystem\\LibrarySystem.csproj|c:\\users\\sinasoft\\desktop\\hw-12\\librarysystem\\librarysystem\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BB61A99-8563-44C1-B5CE-0B8E41097A18}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1BB61A99-8563-44C1-B5CE-0B8E41097A18}|LibrarySystem\\LibrarySystem.csproj|c:\\users\\sinasoft\\desktop\\hw-12\\librarysystem\\librarysystem\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1BB61A99-8563-44C1-B5CE-0B8E41097A18}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BB61A99-8563-44C1-B5CE-0B8E41097A18}|LibrarySystem\\LibrarySystem.csproj|c:\\users\\sinasoft\\desktop\\hw-12\\librarysystem\\librarysystem\\infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BB61A99-8563-44C1-B5CE-0B8E41097A18}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,46 +26,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\SinaSoft\\Desktop\\HW-12\\LibrarySystem\\LibrarySystem\\Program.cs",
               "RelativeDocumentMoniker": "LibrarySystem\\Program.cs",
               "ToolTip": "C:\\Users\\SinaSoft\\Desktop\\HW-12\\LibrarySystem\\LibrarySystem\\Program.cs",
               "RelativeToolTip": "LibrarySystem\\Program.cs",
-              "ViewState": "AgIAAK8BAAAAAAAAAAAkwLYBAABAAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACsAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-20T10:06:24.93Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Review.cs",
-              "DocumentMoniker": "C:\\Users\\SinaSoft\\Desktop\\HW-12\\LibrarySystem\\LibrarySystem\\Entities\\Review.cs",
-              "RelativeDocumentMoniker": "LibrarySystem\\Entities\\Review.cs",
-              "ToolTip": "C:\\Users\\SinaSoft\\Desktop\\HW-12\\LibrarySystem\\LibrarySystem\\Entities\\Review.cs",
-              "RelativeToolTip": "LibrarySystem\\Entities\\Review.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T12:17:21.5Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BookService.cs",
-              "DocumentMoniker": "C:\\Users\\SinaSoft\\Desktop\\HW-12\\LibrarySystem\\LibrarySystem\\Services\\BookService.cs",
-              "RelativeDocumentMoniker": "LibrarySystem\\Services\\BookService.cs",
-              "ToolTip": "C:\\Users\\SinaSoft\\Desktop\\HW-12\\LibrarySystem\\LibrarySystem\\Services\\BookService.cs",
-              "RelativeToolTip": "LibrarySystem\\Services\\BookService.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowCEAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T11:53:25.002Z",
               "EditorCaption": ""
             },
             {
@@ -92,61 +50,35 @@
               "RelativeDocumentMoniker": "LibrarySystem\\Services\\ReviewService.cs",
               "ToolTip": "C:\\Users\\SinaSoft\\Desktop\\HW-12\\LibrarySystem\\LibrarySystem\\Services\\ReviewService.cs",
               "RelativeToolTip": "LibrarySystem\\Services\\ReviewService.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAYwDkAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAowMkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T11:50:29.882Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IReviewService.cs",
-              "DocumentMoniker": "C:\\Users\\SinaSoft\\Desktop\\HW-12\\LibrarySystem\\LibrarySystem\\Contracts\\ServiceContracts\\IReviewService.cs",
-              "RelativeDocumentMoniker": "LibrarySystem\\Contracts\\ServiceContracts\\IReviewService.cs",
-              "ToolTip": "C:\\Users\\SinaSoft\\Desktop\\HW-12\\LibrarySystem\\LibrarySystem\\Contracts\\ServiceContracts\\IReviewService.cs",
-              "RelativeToolTip": "LibrarySystem\\Contracts\\ServiceContracts\\IReviewService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAewBAAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T11:46:58.298Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ReviewRepository.cs",
-              "DocumentMoniker": "C:\\Users\\SinaSoft\\Desktop\\HW-12\\LibrarySystem\\LibrarySystem\\Infrastructure\\ReviewRepository.cs",
-              "RelativeDocumentMoniker": "LibrarySystem\\Infrastructure\\ReviewRepository.cs",
-              "ToolTip": "C:\\Users\\SinaSoft\\Desktop\\HW-12\\LibrarySystem\\LibrarySystem\\Infrastructure\\ReviewRepository.cs",
-              "RelativeToolTip": "LibrarySystem\\Infrastructure\\ReviewRepository.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAwCcAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T11:36:15.703Z",
+              "WhenOpened": "2025-09-26T07:16:07.174Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IReviewRepository.cs",
-              "DocumentMoniker": "C:\\Users\\SinaSoft\\Desktop\\HW-12\\LibrarySystem\\LibrarySystem\\Contracts\\RepositoryContracts\\IReviewRepository.cs",
-              "RelativeDocumentMoniker": "LibrarySystem\\Contracts\\RepositoryContracts\\IReviewRepository.cs",
-              "ToolTip": "C:\\Users\\SinaSoft\\Desktop\\HW-12\\LibrarySystem\\LibrarySystem\\Contracts\\RepositoryContracts\\IReviewRepository.cs",
-              "RelativeToolTip": "LibrarySystem\\Contracts\\RepositoryContracts\\IReviewRepository.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAEwAwAAAAVAAAAAAAAAA==",
+              "Title": "BookService.cs",
+              "DocumentMoniker": "C:\\Users\\SinaSoft\\Desktop\\HW-12\\LibrarySystem\\LibrarySystem\\Services\\BookService.cs",
+              "RelativeDocumentMoniker": "LibrarySystem\\Services\\BookService.cs",
+              "ToolTip": "C:\\Users\\SinaSoft\\Desktop\\HW-12\\LibrarySystem\\LibrarySystem\\Services\\BookService.cs",
+              "RelativeToolTip": "LibrarySystem\\Services\\BookService.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAkwEUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T11:26:06.663Z",
+              "WhenOpened": "2025-09-26T07:01:40.72Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\SinaSoft\\Desktop\\HW-12\\LibrarySystem\\LibrarySystem\\Infrastructure\\AppDbContext.cs",
               "RelativeDocumentMoniker": "LibrarySystem\\Infrastructure\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\SinaSoft\\Desktop\\HW-12\\LibrarySystem\\LibrarySystem\\Infrastructure\\AppDbContext.cs",
               "RelativeToolTip": "LibrarySystem\\Infrastructure\\AppDbContext.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAswFUAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T10:50:14.582Z",
+              "WhenOpened": "2025-09-26T06:53:56.657Z",
               "EditorCaption": ""
             }
           ]

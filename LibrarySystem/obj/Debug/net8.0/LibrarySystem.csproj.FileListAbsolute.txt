@@ -304,3 +304,4 @@ C:\Users\SinaSoft\Desktop\HW-12\LibrarySystem\LibrarySystem\bin\Debug\net8.0\run
 C:\Users\SinaSoft\Desktop\HW-12\LibrarySystem\LibrarySystem\obj\Debug\net8.0\LibraryS.702885DD.Up2Date
 C:\Users\SinaSoft\Desktop\HW-12\LibrarySystem\LibrarySystem\obj\Debug\net8.0\LibrarySystem.genruntimeconfig.cache
 C:\Users\SinaSoft\Desktop\HW-12\LibrarySystem\LibrarySystem\obj\Debug\net8.0\ref\LibrarySystem.dll
+C:\Users\SinaSoft\Desktop\HW-12\LibrarySystem\LibrarySystem\obj\Debug\net8.0\LibrarySystem.sourcelink.json
