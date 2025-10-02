@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace LibrarySystem.Infrastructure
 {
-    public class BookRepository : IBookRepository
+    public class BookRepository() : IBookRepository
     {
         //private readonly AppDbContext _context;
         //public BookRepository()
@@ -20,7 +20,7 @@ namespace LibrarySystem.Infrastructure
         {
             using (var _context = new AppDbContext())
             {
-                var book = _context.Books.FirstOrDefault(x=>x.Title.ToUpper() == name.ToUpper());
+                var book = _context.Books.FirstOrDefault(x => x.Title.ToUpper() == name.ToUpper());
                 if (book != null)
                     return book;
                 return null;
@@ -34,7 +34,6 @@ namespace LibrarySystem.Infrastructure
                 _context.SaveChanges();
             }
         }
-
         public void DeleteBookById(int id)
         {
             using (var context = new AppDbContext()) // 👈 اینجا DbContext ساخته میشه
@@ -44,7 +43,6 @@ namespace LibrarySystem.Infrastructure
                 context.SaveChanges();
             }
         }
-
         public Book GetBookById(int id)
         {
             using (var context = new AppDbContext()) // 👈 اینجا DbContext ساخته میشه
@@ -55,7 +53,6 @@ namespace LibrarySystem.Infrastructure
                 return null;
             }
         }
-
         public List<Book> GetBooksList()
         {
             using (var _context = new AppDbContext())
@@ -67,7 +64,8 @@ namespace LibrarySystem.Infrastructure
         {
             using (var _context = new AppDbContext())
             {
-                var book = _context.Books.AsNoTracking()
+                var book = _context.Books
+                    .Include(w => w.UsersWishList)
                     .Include(x => x.Category)
                     .ToList();
                 return book;

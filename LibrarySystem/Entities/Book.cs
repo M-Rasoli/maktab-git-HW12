@@ -15,6 +15,7 @@ namespace LibrarySystem.Entities
         public int CategoryId { get; set; }
         public bool IsBorrowed { get; set; }
         public List<Review> Reviews { get; set; }
+        public List<WishList> UsersWishList { get; set; }
         // category class
         // bool is borrwed
     }

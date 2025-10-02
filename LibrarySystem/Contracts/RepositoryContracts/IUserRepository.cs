@@ -5,13 +5,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using LibrarySystem.DTOs;
 
 namespace LibrarySystem.Contracts.RepositoryContracts
 {
     public interface IUserRepository
     {
         //CRUD
-        void AddNewUser(User user);
+        int AddNewUser(AddUserDto user);
         User GetUserById(int id);
         User GetUserByUserName(string userName);
         List<User> GetUserList();
@@ -20,6 +21,8 @@ namespace LibrarySystem.Contracts.RepositoryContracts
         void UpdateUserbooks(User user);
         bool IsUserNameAlreadyExistUser(string userName);
         List<BorrowedBook> GetUsersBorrowedBooks(int userId);
+        void ChangeUserPenaltyAmount(float penaltyAmount , int userId);
+        double GetUserPenaltyAmount(int userId);
 
     }
 }

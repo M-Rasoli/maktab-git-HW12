@@ -22,6 +22,31 @@ namespace LibrarySystem.Services
             }
             return id;
         }
+        public string ShowUserPenaltyAmount(int id)
+        {
+            var amount = _uRepo.GetUserPenaltyAmount(id);
+            var user = _uRepo.GetUserById(id);
+
+            var sb = new StringBuilder();
+
+
+            sb.AppendLine("----------------------------------------------------------------");
+            sb.AppendLine($"{"Username",-30}{"PenaltyAmount",-15}");
+            sb.AppendLine("----------------------------------------------------------------");
+
+                string username = user.Username.ToString();
+                string penaltyAmountokId = amount.ToString();
+
+                sb.AppendLine(
+                    $"{username,-30}" +
+                    $"{penaltyAmountokId,-15}"
+                );
+
+            sb.AppendLine("----------------------------------------------------------------");
+
+            return sb.ToString();
+
+        }
         public string ShowUsersBorrowedBooks(int userId)
         {
             // گرفتن لیست BorrowedBookهای کاربر
@@ -70,7 +95,7 @@ namespace LibrarySystem.Services
             // سرستون‌ها
             sb.AppendLine("------------------------------------------------------------------------------------");
             sb.AppendLine(
-                $"{"ID",-5}{"Username",-25}{"Role",-20}{"IsActive",-10}"
+                $"{"ID",-5}{"Username",-25}{"Role",-20}{"IsActive",-10}{"UserPenalty",15}"
             );
             sb.AppendLine("------------------------------------------------------------------------------------");
 
@@ -84,7 +109,8 @@ namespace LibrarySystem.Services
                     $"{user.Id,-5}" +
                     $"{user.Username,-25}" +
                     $"{role,-20}" +
-                    $"{active,-10}"
+                    $"{active,-10}" +
+                    $"{user.PenaltyAmount,15}"
                 );
             }
 

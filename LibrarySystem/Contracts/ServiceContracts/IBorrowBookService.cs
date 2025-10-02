@@ -10,5 +10,6 @@ namespace LibrarySystem.Contracts.ServiceContracts
     {
         int BorrowABook(int bookId,int usrId);
         void ReturnBook(int borrowId, int userId);
+        float CheckPenalty(int borrowId);
     }
 }

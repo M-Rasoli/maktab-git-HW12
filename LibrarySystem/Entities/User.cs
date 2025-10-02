@@ -25,6 +25,8 @@ namespace LibrarySystem.Entities
         public bool IsActeive { get; set; }
         public List<BorrowedBook> borrowedBooks { get; set; } = new List<BorrowedBook>();
         public List<Review> Reviews { get; set; }
+        public float PenaltyAmount { get; set; }
+        public List<WishList> BookWishLists { get; set; }
         #endregion
 
 

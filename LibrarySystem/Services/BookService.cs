@@ -23,7 +23,7 @@ namespace LibrarySystem.Services
             var checkBook = _bookRepository.GetBookByName(title);
             if(checkBook != null)
             {
-                throw new Exception("Book Alredy Exist");
+                throw new Exception("Book Already Exist");
             }
             var checkCategory = _categoryRepository.GetCategoryById(categoryId);
             if (checkCategory == null)
@@ -48,7 +48,7 @@ namespace LibrarySystem.Services
             // سرستون‌ها
             sb.AppendLine("------------------------------------------------------------------------------------");
             sb.AppendLine(
-                $"{"ID",-5}{"Title",-30}{"Category",-25}{"IsBorrowed",-12}"
+                $"{"ID",-5}{"Title",-30}{"Category",-25}{"IsBorrowed",-12}{"NumberOfWishList",10}"
             );
             sb.AppendLine("------------------------------------------------------------------------------------");
 
@@ -57,12 +57,14 @@ namespace LibrarySystem.Services
             {
                 string category = item.Category?.BookCategory ?? "-";
                 string borrowed = item.IsBorrowed ? "Yes" : "No";
+                string countWishList = item.UsersWishList.Count().ToString();
 
                 sb.AppendLine(
                     $"{item.Id,-5}" +
                     $"{item.Title,-30}" +
                     $"{category,-25}" +
-                    $"{borrowed,-12}"
+                    $"{borrowed,-12}" +
+                    $"{countWishList,10}"
                 );
             }
 

@@ -12,5 +12,6 @@ namespace LibrarySystem.Contracts.ServiceContracts
         string ShowUsersBorrowedBooks(int userId);
         string ShowUsersList();
         int ChangeUserStatus(int id);
+        string ShowUserPenaltyAmount(int id);
     }
 }

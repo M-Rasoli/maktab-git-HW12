@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using LibrarySystem.DTOs;
 
 namespace LibrarySystem.Services
 {
@@ -33,19 +34,14 @@ namespace LibrarySystem.Services
             throw new Exception("Username Or Password is Worng");
         }
 
-        public int Register(string username, string password, RoleEnum role)
+        public int Register(AddUserDto user)
         {
-            if(!CheckIfUserNameAlreadyExist(username))
+            if(!CheckIfUserNameAlreadyExist(user.Username))
             {
                 throw new Exception("Username Already Exist!");
             }
-            User user = new User();
-            user.Username = username;
-            user.Password = password;
-            user.Role = role;
-            _userRepository.AddNewUser(user);
-            return user.Id;
 
+            return _userRepository.AddNewUser(user);
         }
         public bool CheckIfUserNameAlreadyExist(string username)
         {
