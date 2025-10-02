@@ -11,8 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.Json;
 using Microsoft.Identity.Client;
 using Spectre.Console;
 using System.Transactions;
+using LibrarySystem.DTOs;
 
 Console.WriteLine("Hello, World!");
+AppDbContext _context = new AppDbContext();
+IBorrowBookRepository _borrowBookRepository = new BorrowBookRepository();
 
 IAuthenticationService authenticationservice = new AuthenticationService();
 IBookService bookService = new BookService();
@@ -74,9 +77,15 @@ void HandleRegister()
         new TextPrompt<string>("Enter your [green]PASSWORD[/]:")
             .PromptStyle("red")
             .Secret());
+    var newUser = new AddUserDto()
+    {
+        Username = username,
+        Password = password,
+        Role = (RoleEnum)role
+    };
     try
     {
-        var id = authenticationservice.Register(username, password, (RoleEnum)role);
+        var id = authenticationservice.Register(newUser);
         AnsiConsole.MarkupLine($"[yellow]User {username} with ID {id} registered successfully![/]");
         Console.ReadKey();
     }

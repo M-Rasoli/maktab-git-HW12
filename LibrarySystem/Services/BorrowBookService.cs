@@ -10,15 +10,15 @@ using System.Threading.Tasks;
 
 namespace LibrarySystem.Services
 {
-    public class BorrowBookService : IBorrowBookService
+    public class BorrowBookService() : IBorrowBookService
     {
         private readonly IBorrowBookRepository _borrowRepo;
         private readonly IBookRepository _bookRepo;
         private readonly IUserRepository _userRepo;
-        public BorrowBookService()
+        public BorrowBookService(UnitOfWork _unit) : this()
         {
             _bookRepo = new BookRepository();
-            _borrowRepo = new BorrowBookRepository();
+            _borrowRepo = new BorrowBookRepository(_unit);
             _userRepo = new UserRepository();
         }
         public int BorrowABook(int bookId, int usrId)

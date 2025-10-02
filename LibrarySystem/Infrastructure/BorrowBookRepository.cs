@@ -9,14 +9,9 @@ using System.Threading.Tasks;
 
 namespace LibrarySystem.Infrastructure
 {
-    public class BorrowBookRepository : IBorrowBookRepository
+    public class BorrowBookRepository() : IBorrowBookRepository
     {
-        //private readonly AppDbContext _context;
-        //public BorrowBookRepository()
-        //{
-        //    _context = new AppDbContext();
-        //}
-        
+
         public void AddBorrowedBook(BorrowedBook borrowed)
         {
             using (var _context = new AppDbContext()) // 👈 اینجا DbContext ساخته میشه

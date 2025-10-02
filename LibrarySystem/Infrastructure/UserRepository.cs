@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using LibrarySystem.DTOs;
 
 namespace LibrarySystem.Infrastructure
 {
@@ -42,12 +43,19 @@ namespace LibrarySystem.Infrastructure
             }
         }
 
-        public void AddNewUser(User user)
+        public int AddNewUser(AddUserDto user)
         {
             using (var _context = new AppDbContext())
             {
-                _context.Users.Add(user);
+                var newUser = new User()
+                {
+                    Username = user.Username,
+                    Password = user.Password,
+                    Role = user.Role
+                };
+                _context.Users.Add(newUser);
                 _context.SaveChanges();
+                return newUser.Id;
             }
         }
 
@@ -75,7 +83,6 @@ namespace LibrarySystem.Infrastructure
                     return user;
                 return null;
             }
-
         }
 
         public List<User> GetUserList()
@@ -97,7 +104,7 @@ namespace LibrarySystem.Infrastructure
                 return false;
             }
         }
-
+        //innnnnnnnnnnnn
         public void UpdateUserbooks(User user)
         {
             using (var _context = new AppDbContext())
